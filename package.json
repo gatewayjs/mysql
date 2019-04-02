@@ -1,0 +1,21 @@
+{
+  "name": "@gatewayjs/mysql",
+  "version": "1.0.0",
+  "description": "MySQL plug-in for gateway.js",
+  "scripts": {
+    "dev": "NODE_ENV=development cli gw:dev",
+    "start": "cli gw:start",
+    "restart": "cli gw:restart",
+    "stop": "cli gw:stop"
+  },
+  "author": "evio",
+  "license": "MIT",
+  "dependencies": {
+    "@gatewayjs/gateway": "^1.0.1",
+    "mysql": "^2.16.0"
+  },
+  "gateway": {
+    "dependencies": {}
+  },
+  "plugins": {}
+}

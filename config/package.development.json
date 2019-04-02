@@ -1,0 +1,10 @@
+{
+  "test": {
+    "connectionLimit": 10,
+    "host": "192.168.2.181",
+    "user": "shenyj",
+    "password": "!2!34ffh!rfRg89_",
+    "database": "frontend",
+    "port": 3306
+  }
+}
