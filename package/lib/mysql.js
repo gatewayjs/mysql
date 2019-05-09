@@ -70,8 +70,10 @@ module.exports = class MySQL {
         values.push(...whereValues);
       }
     } else {
-      sql += ' ' + where;
-      values.push(...wheres);
+      if (where) {
+        sql += ' ' + where;
+        values.push(...wheres);
+      }
     }
     return this.query(sql, ...values);
   }
@@ -90,8 +92,10 @@ module.exports = class MySQL {
         values.push(...whereValues);
       }
     } else {
-      sql += ' ' + where;
-      values.push(...wheres);
+      if (where) {
+        sql += ' ' + where;
+        values.push(...wheres);
+      }
     }
     return this.query(sql, ...values);
   }
