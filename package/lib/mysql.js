@@ -71,7 +71,7 @@ module.exports = class MySQL {
       }
     } else {
       if (where) {
-        sql += ' ' + where;
+        sql += ' WHERE ' + where;
         values.push(...wheres);
       }
     }
@@ -93,7 +93,7 @@ module.exports = class MySQL {
       }
     } else {
       if (where) {
-        sql += ' ' + where;
+        sql += ' WHERE ' + where;
         values.push(...wheres);
       }
     }

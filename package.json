@@ -1,6 +1,6 @@
 {
   "name": "@gatewayjs/mysql",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "MySQL plug-in for gateway.js",
   "scripts": {
     "dev": "NODE_ENV=development cli gw:dev",
